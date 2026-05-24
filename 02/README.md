@@ -31,7 +31,7 @@
 ## 📁 프로젝트 구조
 
 ```
-mood_diary/
+02/
 ├── main.py                  # 앱 진입점
 ├── database.py              # DB 연결
 ├── models/                  # SQLAlchemy 테이블 정의
