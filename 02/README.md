@@ -10,10 +10,10 @@ HTTP(HyperText Transfer Protocol)는 웹에서 클라이언트(브라우저, 앱
 ## 1-2. HTTP 요청 구조
 |이름|예시|내용|
 |---------------------|-------------------------------------|---------------------------------|
-|시작줄(Start Line)|POST /posts HTTP/1.1 |요청이나 응답의 상태를 나타내는 첫번째 줄|
-|헤더(HTTP Headers)|Host: example.com|메시지 바디를 요약하는 헤더들의 집합|
+|시작줄(Start Line)|POST/posts HTTP/1.1|요청이나 응답의 상태를 나타내는 첫번째 줄|
+|헤더(Headers)|Host:example.com|메시지 바디를 요약하는 헤더들의 집합|
 |빈 줄(Empty line)|    |헤더와 본문을 구분하기 위해 존재하는 빈 줄|
-|본문(Body)|{ "title": "안녕", "content": "첫 글" }| 데이터나 문서 등 실제 내용이 포함되며 HTML 문서, JSON 데이터 등이 본문에 담길 수 있음|
+|본문(Body)|{"title":"안녕","content":"첫 글"}| 데이터나 문서 등 실제 내용이 포함되며 HTML 문서, JSON 데이터 등이 본문에 담길 수 있음|
 
 ## 1-3. HTTP 메서드 (CRUD와 매핑)
 |메서드|의미|CRUD|예시|
