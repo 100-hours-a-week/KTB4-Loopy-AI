@@ -8,6 +8,7 @@
     5. (선택) HTML/CSS/JS나 스트림릿으로 프론트엔드 만들기
 
 ## 📖 프로젝트 구조
+
 fastapi_community/
 ├── README.md
 ├── .gitignore
@@ -27,7 +28,24 @@ fastapi_community/
 ├── routes/
     ├── __init__.py
     └── post_routes.py
-
+├── main.py
+├── database.py    # engine, db 생성
+├── models.py      # sqlalchemy 테이블과 매핑
+├── schemas.py     # pydantic validation
+├── routers
+│   ├── comments.py
+│   ├── posts.py
+│   └── users.py
+├── services
+│   ├── comments.py
+│   ├── posts.py
+│   ├── users.py
+│   └── ai_service.py
+├── repositories
+│   ├── comments.py
+│   ├── posts.py
+│   └── users.py
+└── README.md
 
 ## 📝 회고 (Review)
     
