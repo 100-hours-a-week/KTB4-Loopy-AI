@@ -17,10 +17,23 @@ Authorization: Bearer xxx
 구성: 시작 줄 / 헤더 / 바디.
 
 ## 1-3. HTTP 메서드 (CRUD와 매핑)
-메서드의미CRUD예시GET자원 조회Read게시글 목록 보기POST자원 생성Create새 글 작성PUT자원 전체 수정Update글 통째로 교체PATCH자원 일부 수정Update제목만 수정DELETE자원 삭제Delete글 삭제
+|메서드|의미|CRUD|예시|
+|----|-------|-----|-------|
+|GET|자원 조회|Read|게시글 목록 보기|
+|POST|자원 생성|Create|새 글 작성|
+|PUT|자원 전체 수정|Update|글 통째로 교체|
+|PATCH|자원 일부 수정|Update|제목만 수정|
+|DELETE|자원 삭제|Delete|글 삭제|
 
 ## 1-4. HTTP 상태 코드
-코드 대역의미대표 예시1xx정보성100 Continue2xx성공200 OK, 201 Created, 204 No Content3xx리다이렉션301 Moved Permanently, 304 Not Modified4xx클라이언트 오류400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found5xx서버 오류500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable
+
+|코드 대역|의미|대표 예시|
+|----|-------|------------|
+|1xx|정보성|100 Continue|
+|2xx|성공|200 OK, 201 Created, 204 No Content|
+|3xx|리다이렉션|301 Moved Permanently, 304 Not Modified|
+|4xx|클라이언트 오류|400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found|
+|5xx|서버 오류|500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable|
 
 ## 1-5. 자주 쓰이는 헤더
 - Content-Type: 보내는 데이터 형식 (예: application/json)
